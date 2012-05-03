@@ -1,0 +1,19 @@
+<div id="music">
+<h1>Music <small>My top 20 of all time</small></h1>
+
+<% @albums.each do |album|%>
+   <hr>
+   <div class="row">
+     <div class="span4">
+       <%= image_tag(album['image'], width: 120) %>
+     </div>
+     <div class="span5">
+       <h3><%= album['artist'] %><small><%= album['album'] %></small></h3>
+
+       <p>I like music!</p>
+     </div>
+   </div>
+
+<% end %>
+
+</div>
