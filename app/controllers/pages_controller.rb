@@ -1,10 +1,16 @@
 class PagesController < ApplicationController
 
   def home; end
-  def resume; end
+  def resume
+    @work_items = YAML::load(File.open("config/work.yml"))
+    @school_items = YAML::load(File.open("config/education.yml"))
+  end
   def music
     @albums = YAML::load(File.open("config/music.yml"))
-    puts @albums.inspect
+  end
+
+  def games
+    @games = YAML::load(File.open("config/games.yml"))
   end
 
 end

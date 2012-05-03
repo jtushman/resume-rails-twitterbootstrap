@@ -1,0 +1,19 @@
+<div id="music">
+<h1>Games <small>What I am playing these days</small></h1>
+
+<% @games.each do |game|%>
+   <hr>
+   <div class="row">
+     <div class="span4">
+       <%= image_tag(game['image'], width: 120) %>
+     </div>
+     <div class="span5">
+       <h3><%= link_to game['name'], game['url'] %></h3>
+
+       <p>I like games!</p>
+     </div>
+   </div>
+
+<% end %>
+
+</div>

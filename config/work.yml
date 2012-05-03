@@ -1,0 +1,45 @@
+--- # Work Experience
+- company: Pipewave
+  title: 'Founder, CTO'
+  logo: pipewave.png
+  url: 'http://pipewave.com'
+  years: 2011 - Current
+  description: |
+    My latest, and probably most ambitious to date.
+
+    [Pipewave](http://pipewave.com) is a Google certified video ad server which can serve millions of ads per hour, that leverages big-data data processing techniques to perform creative optimization.
+    Scale, performance, and reliability were paramount in this project.
+
+- company: StatSamurai
+  title: 'Founder, CTO'
+  logo: statsamurai.png
+  url: 'http://statsamurai.com'
+  years: 2011 - Current
+  description: |
+    In building Pipewave, I was shocked not to find a web service to handle statistical jobs.
+    So, I built [StatSamurai](http://statsamurai.com) -- a high performance, cloud-based, no-hassle statistic processing service
+
+- company: PacWest Consulting Partners
+  title: Founding Partner
+  logo: pacwest.png
+  url: 'http://pacwestcp.com'
+  years: 2008 - Current
+  description: |
+    [PacWest Consulting Partners](http://pacwestcp.com) is a boutique strategy consultancy and market intelligence firm that specializes in the energy, industrial, and resources sectors.  Much of our work is focused around the oilfield and the many industries that supply critical products and services to it.
+
+    I led the technology practice where we implement, deploy and support large business transforming systems and processes.
+
+- company: Sapient
+  title: Architect
+  logo: sapient-02.gif
+  url: 'http://sapient.com'
+  years: 1997 - 2002
+  description: |
+    My formative years between undergrad and business school I spent at [Sapient](http://sapient.com).  Here I cut my teeth on software
+    development and process, I really couldn't imagine a better first job out of school.
+
+    I was the architect of the Advanced Technology Group, responsible for
+    project design and quality of Sapient’s portfolio of technical solutions for IT consulting clients. He
+    formulated Sapient's strategy on emerging technologies,helped establish Sapient's first satilite office in
+    India, and led teams of 10-40 multi-disciplinary consultings on major technology deployments.
+

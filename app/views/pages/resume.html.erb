@@ -1,5 +1,5 @@
 <div id="resume">
-<h1>Resume</h1>
+<h1>Curriculum Vitae</h1>
 
 <ul class="nav nav-pills" id="resumeNav">
   <li class="active"><a href="#work" data-toggle="tab">Work</a></li>
@@ -8,82 +8,37 @@
 
 <div class="tab-content">
   <div class="tab-pane fade in active" id="work">
-    <div class="row">
-      <div class="span4">
-        <%= link_to image_tag('pipewave.png', width: 240), 'http://pipewave.com' %>
-      </div>
-      <div class="span5">
-        <h3>Pipewave <small>Founder, CTO</small></h3>
 
-        <p>My latest, and probably most ambitious to date.</p>
-        <p><%= link_to 'Pipewave', 'http://statsamurai.com' %> is a Google certified video ad server which can serve millions of ads per hour, that leverages big-data data processing techniques to perform creative optimization.
-           Scale, performance, and reliability were paramount in this project.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="span4">
-        <%= link_to image_tag('statsamurai.png', width: 240), 'http://statsamurai.com' %>
-      </div>
-      <div class="span5">
-        <h3>Stat Samurai <small>Founder, CTO</small></h3>
+    <%@work_items.each do |work_item| %>
+        <hr>
+        <div class="row">
+          <div class="span4">
+            <%= link_to image_tag(work_item['logo']), work_item['url'] %>
+          </div>
+          <div class="span5">
+            <h3><%= work_item['company'] %> <small><%= work_item['title'] %></small></h3>
+            <span class='years'><%= work_item['years'] %></span>
+            <%= raw Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(work_item['description']) %>
+          </div>
+        </div>
+    <% end %>
 
-        <p>
-           In building Pipewave, I was shocked not to find a web service to handle statistical jobs.
-           So, I built <%= link_to 'StatSamurai', 'http://statsamurai.com' %> -- a high performance, cloud-based, no-hassle statistic processing service
-        </p>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="span4">
-        <%= link_to image_tag('pacwest.png', width: 240), 'http://pacwestcp.com' %>
-      </div>
-      <div class="span5">
-        <h3>PacWest Consulting Partners <small>Founding Partner</small></h3>
-
-        <p><%= link_to 'PacWest Consulting Partners', 'http://pacwestcp.com' %> is a boutique strategy consultancy and market intelligence firm that specializes in the energy, industrial, and resources sectors.  Much of our work is focused around the oilfield and the many industries that supply critical products and services to it. </p>
-        <p>I led the technology practice where we implement, deploy and support large business transforming systems and processes</p>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="span4">
-        <%= link_to image_tag('sapient-02.gif', width: 100), 'http://sapient.com' %>
-      </div>
-      <div class="span5">
-        <h3>Sapient <small>Architect</small></h3>
-        <p>My formative years between undergrad and business school I spent at <%= link_to 'Sapient', 'http://sapient.com' %>.  Here I cut my teeth on software
-        development and process, I really couldn't imagine a better first job out of school.</p>
-        <p>I was the architect of the Advanced Technology Group at Sapient Corporation, responsible for
-          project design and quality of Sapient’s portfolio of technical solutions for IT consulting clients. He
-          formulated Sapient's strategy on emerging technologies,helped establish Sapient's first satilite office in
-          India, and led teams of 10-40 multi-disciplinary consultings on major technology deployments.
-      </div>
-    </div>
   </div>
   <div class="tab-pane fade" id="education">
-    <div class="row">
-      <div class="span4">
-        <%= link_to image_tag('hbs_logo3.jpg', width: 240), 'http://hbs.edu' %>
-      </div>
-      <div class="span5">
-        <h3>Harvard Business School</h3>
+    <%@school_items.each do |school_item| %>
+        <hr>
+        <div class="row">
+          <div class="span4">
+            <%= link_to image_tag(school_item['logo'], width: 240), school_item['url'] %>
+          </div>
+          <div class="span5">
+            <h3><%= school_item['school'] %> </h3>
 
-        <p>MBA, Class of 2004</p>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="span4">
-        <%= link_to image_tag('u_of_r.jpg', width: 240), 'http://hbs.edu' %>
-      </div>
-      <div class="span5">
-        <h3>University of Rochester</h3>
+            <p><%= school_item['degree'] %>, Class of <%= school_item['class'] %></p>
+          </div>
+        </div>
 
-        <p>BSEE, Class of 1997</p>
-      </div>
-    </div>
+    <% end %>
   </div>
 </div>
 </div>
