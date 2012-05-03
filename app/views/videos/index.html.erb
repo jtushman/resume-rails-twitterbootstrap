@@ -1,23 +1,26 @@
-<h1>Listing videos</h1>
-
-<table>
-  <tr>
-    <th>Name</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @videos.each do |video| %>
-  <tr>
-    <td><%= video.name %></td>
-    <td><%= link_to 'Show', video %></td>
-    <td><%= link_to 'Edit', edit_video_path(video) %></td>
-    <td><%= link_to 'Destroy', video, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
+<h1>Videos</h1>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Created at</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @videos.each do |video| %>
+      <tr>
+        <td><%= video.id %></td>
+        <td><%= link_to video.name, video_path(video) %></td>
+        <td><%= video.created_at %></td>
+        <td>
+          <%= link_to 'Edit', edit_video_path(video), :class => 'btn btn-mini' %>
+          <%= link_to 'Destroy', video_path(video), :method => :delete, :confirm => 'Are you sure?', :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
 </table>
 
-<br />
-
-<%= link_to 'New Video', new_video_path %>
+<%= link_to 'New', new_video_path, :class => 'btn btn-primary' %>

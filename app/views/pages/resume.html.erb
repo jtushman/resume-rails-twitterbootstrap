@@ -1,0 +1,64 @@
+<h1>Resume</h1>
+
+<ul class="nav nav-pills" id="resumeNav">
+  <li class="active"><a href="#projects" data-toggle="tab">Projects</a></li>
+  <li><a href="#education" data-toggle="tab">Education</a></li>
+</ul>
+
+<div class="tab-content">
+  <div class="tab-pane fade in active" id="projects">
+    <div class="row">
+      <div class="span3">
+        <%= link_to image_tag('pipewave.png', width: 240), 'http://pipewave.com' %>
+      </div>
+      <div class="span5">
+        <h3>Pipewave</h3>
+
+        <p>My latest, and probably most ambitious to date ... </p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="span5">
+        <h3>Stat Samurai</h3>
+
+        <p>My love for statistics, and specificially for the R programing language, inspired me to build Stat
+          Samurai</p>
+      </div>
+      <div class="span3">
+        <%= link_to image_tag('statsamurai.png', width: 240), 'http://statsamurai.com' %>  </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="span3">
+        <%= link_to image_tag('pacwest.png', width: 240), 'http://pacwestcp.com' %>
+      </div>
+      <div class="span5">
+        <h3>PacWest Consulting Partners</h3>
+
+        <p>I am a founding partner of PacWest Consulting Partners </p>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="education">
+    <div class="row">
+      <div class="span3">
+        <%= link_to image_tag('hbs_logo3.jpg', width: 240), 'http://hbs.edu' %>
+      </div>
+      <div class="span5">
+        <h3>Harvard Business School</h3>
+        <p>MBA, Class of 2004</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="span3">
+        <%= link_to image_tag('u_of_r.jpg', width: 240), 'http://hbs.edu' %>
+      </div>
+      <div class="span5">
+        <h3>University of Rochester</h3>
+        <p>BSEE, Class of 1997</p>
+      </div>
+    </div>
+  </div>
+</div>
