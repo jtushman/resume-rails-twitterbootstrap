@@ -10,7 +10,7 @@
      <div class="span5">
        <h3><%= link_to game['name'], game['url'] %></h3>
 
-       <p>I like games!</p>
+       <%= raw Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(game['description']) %>
      </div>
    </div>
 

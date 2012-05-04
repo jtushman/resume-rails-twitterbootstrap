@@ -4,6 +4,7 @@
 <ul class="nav nav-pills" id="resumeNav">
   <li class="active"><a href="#work" data-toggle="tab">Work</a></li>
   <li><a href="#education" data-toggle="tab">Education</a></li>
+  <li><a href="#technology" data-toggle="tab">Technology</a></li>
 </ul>
 
 <div class="tab-content">
@@ -40,5 +41,23 @@
 
     <% end %>
   </div>
+
+  <div class="tab-pane fade" id="technology">
+    <%@tech_items.each do |tech_item| %>
+        <hr>
+        <div class="row">
+          <div class="span4">
+            <%= link_to image_tag(tech_item['image']), tech_item['url'] %>
+          </div>
+          <div class="span5">
+            <h3><%= tech_item['technology'] %> </h3>
+
+            <%= raw Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(tech_item['description']) %>
+          </div>
+        </div>
+
+    <% end %>
+  </div>
+
 </div>
 </div>

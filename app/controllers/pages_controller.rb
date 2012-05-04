@@ -4,6 +4,7 @@ class PagesController < ApplicationController
   def resume
     @work_items = YAML::load(File.open("config/work.yml"))
     @school_items = YAML::load(File.open("config/education.yml"))
+    @tech_items = YAML::load(File.open("config/technologies.yml"))
   end
   def music
     @albums = YAML::load(File.open("config/music.yml"))
