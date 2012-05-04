@@ -1,10 +1,83 @@
 --- # Favorite Albums
 - artist: Joni Mitchel
   album: Blue
-  image: http://static.rhap.com/img/170x170/8/2/0/2/3012028_170x170.jpg
+  image: http://upload.wikimedia.org/wikipedia/en/e/e1/Bluealbumcover.jpg
+
 - artist: Who
   album: Tommy
-  image: http://static.rhap.com/img/170x170/9/7/0/2/1302079_170x170.jpg
+  image: http://upload.wikimedia.org/wikipedia/en/1/19/Tommyalbumcover.jpg
+
 - artist: Big Star
-  album: '#1 Record / Radio City'
-  image: http://static.rhap.com/img/170x170/8/9/5/8/2998598_170x170.jpg
+  album: '#1 Record'
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/5/57/Big_Star_-1_Record.jpg/220px-Big_Star_-1_Record.jpg
+
+- artist: Allman Brothers Band
+  album: 'Eat a Peach'
+  image: http://upload.wikimedia.org/wikipedia/en/6/6d/Eatapeach.jpeg
+
+- artist: Pixies
+  album: 'Doolittle'
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Pixies-Doolittle.jpg/220px-Pixies-Doolittle.jpg
+
+- artist: Led Zeppelin
+  album: 'Physical Graffiti'
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/7/7b/LedZeppelinPhysicalGraffitialbumcover.jpg/220px-LedZeppelinPhysicalGraffitialbumcover.jpg
+
+- artist: Phish
+  album: 'Lawn Boy'
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Lawn_Boy_cover.jpg/220px-Lawn_Boy_cover.jpg
+
+- artist: Radiohead
+  album: 'OK Computer'
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Radiohead.okcomputer.albumart.jpg/220px-Radiohead.okcomputer.albumart.jpg
+
+- artist: Bright Eyes
+  album: "I'm Wide Awake, It's Morning"
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/3/36/Imwideawake.jpg/220px-Imwideawake.jpg
+
+- artist: Black Crowes
+  album: 'The Southern Harmony and Musical Companion'
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/9/9a/The_Black_Crowes_The_Southern_Harmony_and_Musical_Companion.jpg/220px-The_Black_Crowes_The_Southern_Harmony_and_Musical_Companion.jpg
+
+- artist: Bob Dylan
+  album: 'Highway 61 Revisted'
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Highway_61_Revisited.jpg/220px-Highway_61_Revisited.jpg
+
+- artist: Bruce Springsteen
+  album: 'Greetings from Asbury Park, N.J.'
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Greetings_from_Asbury_Park_NJ.jpg/220px-Greetings_from_Asbury_Park_NJ.jpg
+
+- artist: Elliot Smith
+  album: 'XO'
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/3/35/ElliottsmithXOalbumcover.jpg/220px-ElliottsmithXOalbumcover.jpg
+
+- artist: Weezer
+  album: 'Weezer (The Blue Album)'
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Weezer_-_Blue_Album.jpg/220px-Weezer_-_Blue_Album.jpg
+
+- artist: The Band
+  album: 'The Band'
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/7/74/The_Band_%28album%29_coverart.jpg/220px-The_Band_%28album%29_coverart.jpg
+
+- artist: Beastie Boys
+  album: "Paul's Boutique"
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/0/07/BeastieBoysPaul%27sBoutique.jpg/220px-BeastieBoysPaul%27sBoutique.jpg
+
+- artist: Stealy Dan
+  album: "Can't Buy a Thrill"
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Cant_buy_a_tcant_buy_a_thrill.jpg/220px-Cant_buy_a_tcant_buy_a_thrill.jpg
+
+- artist: Derek and the Dominos
+  album: "Layla and Other Assorted Love Songs"
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/a/a7/LaylaCover.jpg/220px-LaylaCover.jpg
+
+- artist: Greatful Dead
+  album: "Europe '72"
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/1/18/Europe72.jpg/220px-Europe72.jpg
+
+- artist: Wilco
+  album: "Yankee Hotel Foxtrot"
+  image: http://upload.wikimedia.org/wikipedia/en/thumb/4/47/WilcoYankeeHotelFoxtrot.jpg/220px-WilcoYankeeHotelFoxtrot.jpg
+
+
+
