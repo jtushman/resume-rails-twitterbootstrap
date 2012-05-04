@@ -1,7 +1,7 @@
 --- # Favorite Technologies
 - technology: Ruby on Rails
   url: 'http://rubyonrails.org/'
-  image: rails.png
+  image: rails.jpg
   description: |
     Been developing with Ruby and Rails for over 4 years.  I have never had more fun or have been more productive than
     I have been working with Ruby.  The DRY (don't repeat yourself) philosophy or Rails, combined with the elegance of
@@ -19,7 +19,7 @@
 
 - technology: jQuery
   url: 'http://jquery.com/'
-  image: 'http://static.jquery.com/files/rocker/images/logo_jquery_215x53.gif'
+  image: 'jquery-logo.png'
   description: |
     As the browsers become more powerful, developers need to rely on javascript to give the users fast, responsive,
     and an impactful experience.  For now, jQuery is my library of choice
