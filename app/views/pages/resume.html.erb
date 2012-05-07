@@ -1,5 +1,5 @@
 <div id="resume">
-<h1>Curriculum Vitae</h1>
+<h1>Resume</h1>
 <br>
 <ul class="nav nav-pills" id="resumeNav">
   <li class="active"><a href="#work" data-toggle="tab">Work</a></li>
@@ -55,8 +55,21 @@
             <%= raw Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(tech_item['description']) %>
           </div>
         </div>
-
     <% end %>
+
+    <hr>
+    <h2>Other Recent Technology Experience</h2>
+    <dl class="dl-horizontal">
+      <dt>Languages</dt>
+      <dd>Ruby, Java, Python, C#</dd>
+      <dt>Web Frameworks</dt>
+      <dd>Rails, Merb, Django, .Net</dd>
+      <dt>Datastores</dt>
+      <dd>MongoDB, PosgreSQL, mySQL, SQL Server</dd>
+      <dt>Front End</dt>
+      <dd>jQuery, CSS, SASS</dd>
+    </dl>
+
   </div>
 
 </div>

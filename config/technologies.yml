@@ -13,9 +13,9 @@
   image: mongo.png
   description: |
     I have been really impressed with Mongo.  I love not having to deal with migrations anymore.  The DSL of
-    [Mongoid](http://mongoid.org)The performance and scalability (at least for the types of applications that I have
-    built) have been really impressive.  Plus, I have to give a shoutout to the folks at [MongoHQ](http://mongohq.com)
-    who have phenominal support and have been great system admins for my projects
+    [Mongoid](http://mongoid.org) makes my domain models easy to read, and modify.  The performance and scalability
+    (at least for the types of applications that I have built) have been really impressive.  Plus, I have to give a
+    shoutout to the folks at [MongoHQ](http://mongohq.com) who have phenominal support and have been great system admins for my projects
 
 - technology: jQuery
   url: 'http://jquery.com/'
@@ -24,9 +24,16 @@
     As the browsers become more powerful, developers need to rely on javascript to give the users fast, responsive,
     and an impactful experience.  For now, jQuery is my library of choice
 
-- technology: heroku
+- technology: Heroku
   url: 'http://heroku.com/'
   image: heroku-logo.png
   description: |
-    While not all my projects run on heroku, most do.  It really allows me to focus on the business-domain of the
+    While not all my projects run on [Heroku](http://heroku.com), most do.  It really allows me to focus on the business-domain of the
     problem that I am solving, and leave the infrastructure to them.
+
+- technology: Cucumber
+  url: 'http://http://cukes.info//'
+  image: cucumber-logo.png
+  description: |
+    For a long time I resisted TDD/BDD.  When I was introducted to [Cucumber](http://cukes.info), that certainly changed.
+    Cucumber promotes creating 'living' documentation that also serves as your test harness.
