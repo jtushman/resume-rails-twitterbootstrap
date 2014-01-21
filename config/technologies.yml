@@ -8,6 +8,17 @@
     Ruby make it such a killer combination.  Also, the supporting community (Thanks [Ryan](http://railscasts.com)!) really push to you to keep
     learning new libraries and hone your skills
 
+
+- technology: Python
+  url: 'http://python.org/'
+  image: python.jpg
+  description: |
+    Well, its happened.  After a year of developing in Python, I am now dreaming in Python.  It was a simple transition
+    from Ruby to Python.  And the very welcoming and helpful Python community helped get the most of the language quickly.
+    Most of the work that I have done has centered around [Flask](http://flask.pocoo.org).  For testing I have leaned
+    on the lettuce bdd framework: (http://lettuce.it).
+
+
 - technology: MongoDB
   url: 'http://www.mongodb.org/'
   image: mongo.png
