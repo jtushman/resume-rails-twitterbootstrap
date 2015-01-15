@@ -1,0 +1,24 @@
+<div id="projects" xmlns="http://www.w3.org/1999/html">
+  <h1>Open Source Projects <small><%= link_to 'github/jtushman', 'https://github.com/jtushman' %></small></h1>
+
+
+  <% @projects.each do |project|%>
+      <hr>
+      <div class="row">
+        <div class="span9">
+          <h3><%= project['project'] %> <small><%= project['short_description'] %></small></h3>
+          <h4>
+            <%= link_to 'github', project['repo'] %>
+            | <%= link_to 'pypi', project['pypi'] %>
+            <% if project['docs'] %>
+            | <%= link_to 'docs', project['docs'] %>
+            <% end %>
+          </h4>
+          <br/>
+          <%= raw Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(project['description']) %>
+        </div>
+      </div>
+
+  <% end %>
+
+</div>

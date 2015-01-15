@@ -14,4 +14,8 @@ class PagesController < ApplicationController
     @games = YAML::load(File.open("config/games.yml"))
   end
 
+  def open_source
+    @projects = YAML::load(File.open("config/projects.yml"))
+  end
+
 end

@@ -1,0 +1,72 @@
+--- # Open Source Projects
+- project: bouncer
+  repo: 'https://github.com/jtushman/bouncer'
+  docs: 'https://pythonhosted.org/bouncer/'
+  pypi: 'https://pypi.python.org/pypi/bouncer'
+  short_description: 'Declarative Authentication DSL inspired by Ryan Bates' excellent cancan library'
+  description: |
+    **bouncer** is an authorization library that restricts user access to resources.
+    All the permissions are defined in a **single location**.
+
+    * Decoupled from authentication
+    * Decoupled from how you implement roles
+    * Database independent
+
+- project: flask-bouncer
+  repo: 'https://github.com/jtushman/flask-bouncer'
+  docs: 'https://pythonhosted.org/flask-bouncer/'
+  pypi: 'https://pypi.python.org/pypi/flask-bouncer'
+  short_description: 'declarative authorization for Flask'
+  description: |
+    Makes it easy to connect `bouncer` to your [Flask](http://flask.pocoo.org/) application
+
+- project: monarch
+  repo: 'https://github.com/jtushman/monarch'
+  pypi: 'https://pypi.python.org/pypi/monarch'
+  short_description: 'mulit-environment mongodb toolbelt with migration framework '
+  description: |
+    "migrations should happen naturally"
+
+    `monarch` is a mongo utility belt that helps developers and admins deal with common admin use-cases.
+    The main use-case that this library was built for was _migrations_ but it does a bunch or other useful
+    things like makes it easy to backup, restore, and copy environments between one another.
+
+    It has been very helpful for our teams -- and hopefully you guys can find it useful as well.
+
+- project: memory_utils
+  repo: 'https://github.com/jtushman/memory_utils'
+  pypi: 'https://pypi.python.org/pypi/memory_utils'
+  short_description: 'Utilities to help fight and prevent memory leaks'
+  description: |
+    Yeah Memory Issues!!
+
+    Memory Issues happen to the best of us. `memory_utils` will give you simple tools to quickly isolate
+    the cuplrit, and ideally, warn you before you run into issues.
+
+    From my experience, there is no silver-bullet in dealing with memory issues. You just have to roll up
+    your sleeve and get dirty with print statements. In our team's recent fight with a memory issue, we created memory_utils and we wanted to share.
+
+    `memory_utils` deals primarily with RSS memory (Resident Set Size). The most important memory concept
+    to understand when dealing with memory constrained systems: RSS, the resident set size, is the portion
+    of a process's memory that is held in RAM. The rest of the memory exists in the swap of the file system.
+
+- project: state_machine
+  repo: 'https://github.com/jtushman/state_machine'
+  pypi: 'https://pypi.python.org/pypi/state_machine'
+  short_description: 'Python State Machine for humans'
+  description: |
+    There are two types of developers in this world: those who love state machines and those who will eventually.
+
+    I fall in the first camp. I think it is really important to have a declarative way to define the states
+    of an object. That’s why I developed `state_machine`.
+
+- project: pivotal_tools
+  repo: 'https://github.com/jtushman/pivotal_tools'
+  pypi: 'https://pypi.python.org/pypi/pivotal_tools'
+  short_description: 'geeky command-line interface with additional scrum, planning poker, and changelog generation features'
+  description: |
+    At ZEFR we used Pivotal Tracker to help us with our Agile workflow. Its a great tool, but we created a couple of
+    command-line utilities that help us with our process. We have found these to be real time-savers and helped up
+    tighten up our process.
+
+    We have collected these utils into a python package pivotal_tools.

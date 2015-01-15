@@ -1,14 +1,4 @@
 --- # Favorite Technologies
-- technology: Ruby on Rails
-  url: 'http://rubyonrails.org/'
-  image: rails.jpg
-  description: |
-    Been developing with Ruby and Rails for over 4 years.  I have never had more fun or have been more productive than
-    I have been working with Ruby.  The DRY (don't repeat yourself) philosophy or Rails, combined with the elegance of
-    Ruby make it such a killer combination.  Also, the supporting community (Thanks [Ryan](http://railscasts.com)!) really push to you to keep
-    learning new libraries and hone your skills
-
-
 - technology: Python
   url: 'http://python.org/'
   image: python.jpg
@@ -18,6 +8,14 @@
     Most of the work that I have done has centered around [Flask](http://flask.pocoo.org).  For testing I have leaned
     on the [lettuce bdd framework](http://lettuce.it).
 
+- technology: Ruby on Rails
+  url: 'http://rubyonrails.org/'
+  image: rails.jpg
+  description: |
+    Been developing with Ruby and Rails for over 4 years.  I have never had more fun or have been more productive than
+    I have been working with Ruby.  The DRY (don't repeat yourself) philosophy or Rails, combined with the elegance of
+    Ruby make it such a killer combination.  Also, the supporting community (Thanks [Ryan](http://railscasts.com)!) really push to you to keep
+    learning new libraries and hone your skills
 
 - technology: MongoDB
   url: 'http://www.mongodb.org/'
@@ -28,19 +26,21 @@
     (at least for the types of applications that I have built) have been really impressive.  Plus, I have to give a
     shoutout to the folks at [MongoHQ](http://mongohq.com) who have phenominal support and have been great system admins for my projects
 
-- technology: jQuery
-  url: 'http://jquery.com/'
-  image: 'jquery-logo.png'
-  description: |
-    As the browsers become more powerful, developers need to rely on javascript to give the users fast, responsive,
-    and an impactful experience.  For now, jQuery is my library of choice
-
 - technology: Heroku
   url: 'http://heroku.com/'
   image: heroku-logo.png
   description: |
     While not all my projects run on [Heroku](http://heroku.com), most do.  It really allows me to focus on the business-domain of the
     problem that I am solving, and leave the infrastructure to them.
+
+- technology: Amazon Web Services
+  url: 'http://aws.amazon.com/'
+  image: 'AWS.png'
+  description: |
+    For more sophesticated projects when I need to leave the heroku stack -- I head to Amazon
+
+    The AWS suite (including `S3`, `EC2`, `RedShift`, `RDS`, `CloudFront`, ...) has been my goto Cloud Infrastructure
+    Stack for the last four years.
 
 - technology: Cucumber
   url: 'http://http://cukes.info//'
